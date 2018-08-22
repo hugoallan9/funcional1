@@ -3,7 +3,7 @@ description: |
 
     # Tarea 1
 
-    Bienvenido al curso de Taller de matemática 2, en esta sección encontrarás los ejercicios que debes resolver para
+    Bienvenido al curso de Análisis Funcional1, en esta sección encontrarás los ejercicios que debes resolver para
     tu tarea. 
 
 rules:
@@ -37,7 +37,7 @@ rules:
         credit_percent: 100
 
     -
-        if_completed_before: 2018-08-15
+        if_completed_before: 2018-08-27
         credit_percent: 50
 
     -
@@ -55,13 +55,16 @@ groups:
 
             # Tarea 1
 
-            Debe realizar los ejercicios del texto *Problem-Solving strategies* de Arthur Engel. 
+            Debe realizar los ejercicios del texto *Introductory Functional Analysis with Applications* de Kreyszig. 
 
             | Página        | Ejercicios     |
             | ------------- |:-------------|
-            | 254      |    1,2,3,5,7,9 |
-            | 255      | 12,13,21,22,26,29,31      |
-
+            | 8-9     |    4, 8, 10|
+            | 16-17      | 3, 4, 11      |
+            | 22-24      | 3, 11, 12, 15      |
+            | 31-32      | 2, 4, 8      |
+            | 39-40      | 3, 5, 6, 10, 13, 15      |
+            | 45-46      | 5-7, 11, 13, 14      |
         mime_types:
 
             - application/pdf
