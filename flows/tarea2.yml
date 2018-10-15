@@ -1,0 +1,81 @@
+title: "Tarea 1"
+description: |
+
+    # Tarea 1
+
+    Bienvenido al curso de Análisis Funcional1, en esta sección encontrarás los ejercicios que debes resolver para
+    tu tarea. 
+
+rules:
+    start:
+    -
+        if_before: Tarea 2
+        if_has_role: [student, ta, instructor]
+        if_has_fewer_sessions_than: 2
+        may_start_new_session: True
+        may_list_existing_sessions: True
+
+    -
+        may_start_new_session: False
+        may_list_existing_sessions: True
+
+    access:
+     -
+         if_before: Tarea 2
+         permissions: [view, modify, see_correctness]
+         message: "Bienvenido, tu tarea 2 está lista."
+
+     -
+         permissions: [view, modify, see_correctness, see_answer_after_submission]
+
+    grade_identifier: tarea2
+    grade_aggregation_strategy: max_grade
+
+    grading:
+    -
+        if_completed_before: Tarea 2
+        credit_percent: 100
+
+groups:
+-
+    id: intro
+    pages: 
+    -
+        type: FileUploadQuestion
+        id: proof
+        value: 2.5
+        maximum_megabytes: 5
+        prompt: |
+
+            # Tarea 1
+
+            Debe realizar los ejercicios del texto *Introductory Functional Analysis with Applications* de Kreyszig. 
+
+            | Página        | Ejercicios     |
+            | ------------- |:-------------|
+            | 56-57     |    5, 13|
+            | 64 - 66      | 8, 11, 12      |
+            | 71      | 7, 10, 12      |
+            | 76      | 9      |
+            | 82      | 4, 5, 9, 10      |
+            | 90-91      | 2, 8, 11, 14, 15  |
+            | 101-102      | 3, 7, 9, 10, 11, 13, 14, 15  |
+            | 109-110      | 4, 6, 8, 15  |
+            | 116-117      | 10, 11, 13, 15  |
+            | 125-126     | 4, 11-13  |
+            | 135   | 2, 4, 5, 6  |
+            | 140-141   | 6, 7, 10  |
+            | 150   | 1, 4, 8, 10  |
+        mime_types:
+
+            - application/pdf
+
+        rubric: |
+
+            Para obtener la calificación completa deberá cumplir:
+
+            * Usar los temas vistos en clase para la solución (20%)
+            * Uso de LaTeX (30%)
+            * Correcta argumentación (30%)
+            * No tener errores en la argumentación de un problema elegido al azar (10%)
+
