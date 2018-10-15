@@ -36,6 +36,9 @@ rules:
         if_completed_before: Tarea 2
         credit_percent: 100
 
+    -
+      credit_percent: 0
+
 groups:
 -
     id: intro
