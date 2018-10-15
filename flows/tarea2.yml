@@ -50,7 +50,7 @@ groups:
         maximum_megabytes: 5
         prompt: |
 
-            # Tarea 1
+            # Tarea 2
 
             Debe realizar los ejercicios del texto *Introductory Functional Analysis with Applications* de Kreyszig. 
 
