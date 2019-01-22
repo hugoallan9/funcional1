@@ -28,16 +28,27 @@ chunks:
         **Lugar:** Edificio T-3 salón 412.
 
         **Horas de oficina:** El estudiante podrá consultar dudas acerca del curso en el edificio T-1
-        Laboratorio II (antigua FISIRED), en horario de 9:00 am a 10:30 am. Cualquier consulta fuera de ese horario
+        Laboratorio II (antigua FISIRED), en horario de 10:00  a 10:50 am. Cualquier consulta fuera de ese horario
         deberá ser solicitada por vía [electrónica](mailto:admin@hagarcia.com)   
 
-        Puedes descargar el programa del curso [acá](repocur:pdfs/m702-1S2018.pdf)
+        Puedes descargar el programa del curso [acá](repocur:pdfs/m702-1S2019.pdf)
 
         Toma en cuenta que debes cumplir con las [reglas del curso](staticpage:reglas)
 
 
+-
+    title: "Tareas"
+    id: tareas
+    rules:
+    -
+        if_before: 2019-01-31 13:00:00 -5
+        weight: 100
+        shown: False
+    -
+        weight: 0
 
-        ## Tareas
+    content: |
+
         [Tarea 1](flow:tarea1)
         
         [Tarea 2](flow:tarea2)
