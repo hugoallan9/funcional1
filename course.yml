@@ -23,9 +23,9 @@ chunks:
         ## Generalidades del curso
         El curso M702 - Análisis Funcional 1 se imparte los días Lunes, Martes, Jueves y Viernes
         
-        **Horario:** 10:50 a 11:40
+        **Horario:** 9:00 a 9:50
         
-        **Lugar:** Edificio T-3 salón 412.
+        **Lugar:** Edificio T-3 salón 401.
 
         **Horas de oficina:** El estudiante podrá consultar dudas acerca del curso en el edificio T-1
         Laboratorio II (antigua FISIRED), en horario de 10:00  a 10:50 am. Cualquier consulta fuera de ese horario
@@ -49,11 +49,10 @@ chunks:
 
     content: |
 
+        ## Tareas
         [Tarea 1](flow:tarea1)
         
-        [Tarea 2](flow:tarea2)
 
-         [Tarea 3](flow:tarea3)
 
         
         
