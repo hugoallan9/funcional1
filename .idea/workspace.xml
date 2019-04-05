@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0fad84c-a962-4cee-92eb-0a5dfb84dc8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/flows/tarea2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flows/tarea2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,19 +12,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="162">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flows/tarea2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1011">
+            <state relative-caret-position="-561">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
@@ -48,8 +48,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/flows/tarea1.yml" />
-        <option value="$PROJECT_DIR$/course.yml" />
         <option value="$PROJECT_DIR$/flows/tarea2.yml" />
+        <option value="$PROJECT_DIR$/course.yml" />
       </list>
     </option>
   </component>
@@ -136,13 +136,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flows/tarea1.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -152,8 +145,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flows/tarea2.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1011">
+        <state relative-caret-position="-561">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
         </state>
       </provider>
     </entry>
